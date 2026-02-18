@@ -5,7 +5,7 @@ import type {
   INodeType,
   INodeTypeDescription,
 } from "n8n-workflow";
-import { sirayChatOperation } from "./SirayChat/chatProperties";
+import { sirayChatOperation } from "./chatProperties";
 
 export class Siray implements INodeType {
   description: INodeTypeDescription = {
