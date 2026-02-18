@@ -48,6 +48,25 @@ npm test
 npm run lint
 ```
 
+### Recommended
+
+- Follow n8n's [development environment setup guide](https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/)
+
+> [!NOTE]
+> The `@n8n/node-cli` is included as a dev dependency and will be installed automatically when you run `npm install`. The CLI includes n8n for local development, so you don't need to install n8n globally.
+
+This command runs `n8n-node dev` which:
+
+- Builds your node with watch mode
+- Starts n8n with your node available
+- Automatically rebuilds when you make changes
+- Opens n8n in your browser (usually http://localhost:5678)
+
+You can now test your node in n8n workflows!
+
+> [!NOTE]
+> Learn more about CLI commands in the [@n8n/node-cli documentation](https://www.npmjs.com/package/@n8n/node-cli).
+
 ## Project Structure
 
 ```

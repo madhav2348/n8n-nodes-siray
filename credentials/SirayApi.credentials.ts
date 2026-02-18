@@ -51,11 +51,10 @@ export class SirayApi implements ICredentialType {
       },
     },
   };
-  // test: ICredentialTestRequest = {
-	// 	request: {
-	// 		baseURL: 'https://api.github.com',
-	// 		url: '/user',
-	// 		method: 'GET',
-	// 	},
-	// };
+  test: ICredentialTestRequest = {
+		request: {
+			baseURL: '={{$credentials?.url}}',
+			url: '/models',
+		},
+	};
 }
