@@ -81,21 +81,7 @@ export class Siray implements INodeType {
           },
           json: true,
         });
-        const content = response.choices?.[0]?.message?.content;
-        /*
-        Following  Tokens i.e inputToken, outputToken and totalToken are for user API usage 
-        uncomment if needed
-        */
-
-        /*
-        const inputTokens =
-          response.usage?.input_tokens ?? response.usage?.prompt_tokens;
-
-        const outputTokens =
-          response.usage?.output_tokens ?? response.usage?.completion_tokens;
-
-        const totalTokens = response.usage?.total_tokens;
-        */
+        const content = response.choices?.[0]?.message?.content;  
 
         item.push({
           json: {
