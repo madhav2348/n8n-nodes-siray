@@ -67,22 +67,14 @@ export class Siray implements INodeType {
           body,
           json: true,
         });
-        const content = response.choices?.[0]?.message?.content;
+      
       
         item.push({
           json: {
-            id: response.code,
-            object: response.object,
-            created: response.created,
-            model: response.model,
-
-            content,
-
-            usage: {
-              input_tokens: response.usage?.input_tokens,
-              output_tokens: response.usage?.output_tokens,
-              total_tokens: response.usage?.total_tokens,
-            },
+             code: response.code,
+            message: response.message,
+            task_id: response.data.task_id,
+            
           },
         });
       } catch (error) {
