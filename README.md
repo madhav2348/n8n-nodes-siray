@@ -41,11 +41,6 @@ npm run dev
 # Build the project
 npm run build
 
-# Run tests
-npm test
-
-# Lint code
-npm run lint
 ```
 
 ### Recommended
@@ -74,8 +69,7 @@ You can now test your node in n8n workflows!
 ├── nodes/          # Custom n8n nodes
 ├── credentials/    # Custom credential types
 ├── workflows/      # Example workflows
-├── docs/          # Documentation
-└── tests/         # Test files
+└──  docs/          # Documentation
 ```
 
 ## Contributing

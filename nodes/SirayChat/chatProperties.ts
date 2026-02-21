@@ -9,24 +9,27 @@ const sirayChatModelOptions = sirayChatModel.map((model) => ({
 
 export const sirayChatOperation: INodeProperties[] = [
   {
+    displayName: "Operation",
+    name: "operation",
+    type: "options",
+    noDataExpression: true,
+    options: [
+      {
+        name: "Chat Completion",
+        value: "chatCompletion",
+        description: "Create a chat completion",
+        action: "Create a chat completion",
+      },
+    ],
+    default: "chatCompletion",
+  },
+  {
     displayName: "message",
     name: "message",
     type: "string",
     noDataExpression: true,
     required: true,
     default: "",
-  },
-  {
-    displayName: "API Key",
-    name: "apiKey",
-    type: "string",
-    typeOptions: {
-      password: true,
-    },
-    default: "",
-    required: true,
-
-    description: "Your Siray API key",
   },
   {
     displayName: "Filters",
@@ -57,17 +60,6 @@ export const sirayChatOperation: INodeProperties[] = [
         default: "system",
       },
     ],
-    displayOptions: {
-      // the resources and operations to display this element with
-      show: {
-        resource: [
-          // comma-separated list of resource names
-        ],
-        operation: [
-          // comma-separated list of operation names
-        ],
-      },
-    },
   },
   {
     displayName: "Model",
@@ -82,6 +74,10 @@ export const sirayChatOperation: INodeProperties[] = [
     displayName: "frequency_penalty",
     name: "frequency_penalty",
     type: "number",
+    typeOptions: {
+      minValue: -2,
+      maxValue: 2,
+    },
     default: "0",
     description: "Penalty for frequent tokens. Required range: -2 <= x <= 2",
   },
@@ -89,6 +85,10 @@ export const sirayChatOperation: INodeProperties[] = [
     displayName: "max_tokens",
     name: "max_tokens",
     type: "number",
+    typeOptions: {
+      minValue: 1,
+      maxValue: 32768,
+    },
     default: "32768",
     description:
       "Maximum number of tokens to generate. Required range: 1 <= x <= 32768",
@@ -97,6 +97,10 @@ export const sirayChatOperation: INodeProperties[] = [
     displayName: "presence_penalty",
     name: "presence_penalty",
     type: "number",
+    typeOptions: {
+      minValue: -2,
+      maxValue: 2,
+    },
     default: "0",
     description: "Penalty for new topics. Required range: -2 <= x <= 2",
   },
@@ -111,6 +115,10 @@ export const sirayChatOperation: INodeProperties[] = [
     displayName: "temperature",
     name: "temperature",
     type: "number",
+    typeOptions: {
+      minValue: 0,
+      maxValue: 2,
+    },
     default: "1",
     description:
       "Controls randomness in output (higher = more random). Required range: 0 <= x <= 2",
@@ -119,6 +127,10 @@ export const sirayChatOperation: INodeProperties[] = [
     displayName: "top_p",
     name: "top_p",
     type: "number",
+    typeOptions: {
+      minValue: 0,
+      maxValue: 1,
+    },
     default: "1",
     description:
       "Nucleus sampling parameter (controls diversity). Required range: 0 <= x <= 1",

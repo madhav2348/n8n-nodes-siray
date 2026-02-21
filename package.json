@@ -4,17 +4,17 @@
   "description": "Custom n8n nodes and workflows for Siray AI automation",
   "main": "index.js",
   "scripts": {
-		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
-		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
-	},
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
   "files": [
-		"dist"
-	],
+    "dist"
+  ],
   "keywords": [
     "n8n",
     "n8n-nodes",
@@ -31,20 +31,22 @@
       "dist/credentials/SirayApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Siray/Siray.node.js"
+      "dist/nodes/SirayChat/SirayChat.node.js",
+      "dist/nodes/SirayImage/SirayImage.node.js",
+      "dist/nodes/SirayVideo/SirayVideo.node.js"
     ]
   },
   "devDependencies": {
     "@n8n/node-cli": "*",
-		"eslint": "9.32.0",
-		"prettier": "3.6.2",
-		"release-it": "^19.0.4",
-		"typescript": "5.9.2"
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^19.0.4",
+    "typescript": "5.9.2"
   },
   "dependencies": {
     "n8n-core": "latest"
   },
   "peerDependencies": {
-		"n8n-workflow": "*"
-	}
+    "n8n-workflow": "*"
+  }
 }

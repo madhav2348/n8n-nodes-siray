@@ -26,35 +26,41 @@ const sirayAvailableModel = JSON.parse(
   readFileSync(modelFilePath, "utf8"),
 ) as SirayModelType[];
 
+/* TODO:
+  Test if [model.tag === "multi-model"] works im each model
+  and produce expected results
+
+*/
+
 export const sirayChatModel: SirayModelType[] = sirayAvailableModel.filter(
   (model) => {
-    return model.tag === "chat" || model.tag === "multi-model";
+    return model.tag === "chat";
   },
 ).sort((a, b) => a.name.localeCompare(b.name));
 
 export const sirayTextToImage: SirayModelType[] = sirayAvailableModel.filter(
   (models) => {
-    return models.tag === "text-to-image" || models.tag === "multi-model";
+    return models.tag === "text-to-image" ;
   },
 ).sort((a, b) => a.name.localeCompare(b.name));
 
 export const sirayImageToImage: SirayModelType[] = sirayAvailableModel.filter(
   (models) => {
-    return models.tag === "image-to-image" || models.tag === "multi-model";
+    return models.tag === "image-to-image"  ;
   },
 ).sort((a, b) => a.name.localeCompare(b.name));
 export const sirayTextToVideo: SirayModelType[] = sirayAvailableModel.filter(
   (models) => {
-    return models.tag === "text-to-video" || models.tag === "multi-model";
+    return models.tag === "text-to-video"  ;
   },
 ).sort((a, b) => a.name.localeCompare(b.name));
 export const sirayImageToVideo: SirayModelType[] = sirayAvailableModel.filter(
   (models) => {
-    return models.tag === "image-to-image" || models.tag === "multi-model";
+    return models.tag === "image-to-image" ;
   },
 ).sort((a, b) => a.name.localeCompare(b.name));
 export const sirayVideoToVideo: SirayModelType[] = sirayAvailableModel.filter(
   (models) => {
-    return models.tag === "video-to-video" || models.tag === "multi-model";
+    return models.tag === "video-to-video" ;
   },
 ).sort((a, b) => a.name.localeCompare(b.name));

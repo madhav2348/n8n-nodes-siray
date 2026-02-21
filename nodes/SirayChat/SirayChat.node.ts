@@ -44,8 +44,9 @@ export class Siray implements INodeType {
 
     for (let itemIndex = 0; itemIndex < items.length; itemIndex++) {
       try {
-        const apiKey = this.getNodeParameter("apiKey", itemIndex) as string;
+      
         const message = this.getNodeParameter("message", itemIndex) as string;
+        const filter  = this.getNodeParameter("filter", itemIndex) as string;
         const model = this.getNodeParameter("model", itemIndex) as string;
         const max_tokens = this.getNodeParameter("max_tokens",itemIndex,) as string;
         const temperature = this.getNodeParameter("temprature",itemIndex,) as string;
@@ -66,15 +67,11 @@ export class Siray implements INodeType {
         const response = await this.helpers.httpRequest({
           method: "POST",
           url,
-          headers: {
-            Authorization: `Bearer ${apiKey}`,
-            "Content-Type": "application/json",
-          },
           body: {
             model,
             messages: [
               {
-                role: "user",
+                role: filter,
                 content: message,
               },
             ],
