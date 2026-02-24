@@ -1,0 +1,1171 @@
+[
+  {
+    "id": 288,
+    "name": "GLM 5",
+    "model_name": "z-ai/glm-5",
+    "description": "GLM 5 is Zhipu AI's flagship large language model with advanced reasoning and multilingual capabilities. Excel at complex tasks with state-of-the-art Chinese and English understanding.",
+    "tag": "chat"
+  },
+  {
+    "id": 289,
+    "name": "MiniMax M2.5",
+    "model_name": "minimax/minimax-m2.5",
+    "description": "MiniMax M2.5 is MiniMax's advanced large language model with strong multimodal and conversational abilities. Deliver intelligent responses with natural, engaging interaction quality.",
+    "tag": "chat"
+  },
+  {
+    "id": 286,
+    "name": "Kling 3.0 t2v",
+    "model_name": "kuaishou/kling-3.0-t2v",
+    "description": "Kling 3.0 t2v is Kuaishou's latest text-to-video model with cutting-edge generation quality. Create stunning videos from text prompts with superior motion and visual fidelity.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 285,
+    "name": "Kling 3.0 i2v",
+    "model_name": "kuaishou/kling-3.0-i2v",
+    "description": "Kling 3.0 i2v is Kuaishou's latest image-to-video model with unified multimodal capabilities. Transform images into dynamic videos with advanced motion and character consistency.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 284,
+    "name": "Claude Opus 4.6 (Prompts ≤ 200K tokens)",
+    "model_name": "anthropic/claude-opus-4.6",
+    "description": "Claude Opus 4.6 is Anthropic's most intelligent and capable large language model. Excel at complex reasoning, coding, analysis, and nuanced creative tasks with state-of-the-art performance.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 283,
+    "name": "Claude Opus 4.6 (Prompts > 200K tokens)",
+    "model_name": "anthropic/claude-opus-4.6-long",
+    "description": "Claude Opus 4.6 is Anthropic's most intelligent and capable large language model. Excel at complex reasoning, coding, analysis, and nuanced creative tasks with state-of-the-art performance.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 257,
+    "name": "Kimi K2.5",
+    "model_name": "moonshotai/kimi-k2.5",
+    "description": "Kimi K2.5 is a high-performance large language model optimized for long-context reasoning, precise instruction following, and stable multilingual output across complex real-world tasks.",
+    "tag": "chat"
+  },
+  {
+    "id": 290,
+    "name": "MiniMax M2.1",
+    "model_name": "minimax/minimax-m2.1",
+    "description": "MiniMax M2.1 is MiniMax's reliable large language model with proven stability and solid performance. A cost-effective choice for production AI applications and workflows.",
+    "tag": "chat"
+  },
+  {
+    "id": 274,
+    "name": "Vidu Q3-pro t2v",
+    "model_name": "vidu/vidu-q3-pro-t2v",
+    "description": "Vidu Q3-pro t2v is Vidu AI's latest professional text-to-video model. Generate high-quality videos directly from text prompts with superior visual coherence and motion.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 273,
+    "name": "Vidu Q3-pro i2v",
+    "model_name": "vidu/vidu-q3-pro-i2v",
+    "description": "Vidu Q3-pro i2v is Vidu AI's latest image-to-video model with enhanced quality and motion fidelity. Transform static images into dynamic, cinematic video sequences.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 211,
+    "name": "GPT 5.2 Chat",
+    "model_name": "openai/gpt-5.2-chat",
+    "description": "GPT 5.2 Chat is a conversational AI model optimized for natural dialogue, fast responses, and reliable context handling across extended multi-turn conversations.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 208,
+    "name": "GPT 5.2",
+    "model_name": "openai/gpt-5.2",
+    "description": "GPT 5.2 is an advanced language model designed for high-precision reasoning, rapid response times, and scalable production workloads. It delivers stronger accuracy across coding, writing, and workflow automation.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 128,
+    "name": "Sora 2 t2v",
+    "model_name": "openai/sora-2-t2v",
+    "description": "OpenAI's Sora 2 t2v is a Text-to-Video model that quickly generates vertical 720x1280 clips with synchronized audio, optimized for social media and rapid prototyping.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 254,
+    "name": "Kling 2.6 Pro Motion Control",
+    "model_name": "kuaishou/kling-2.6-pro-motion-control",
+    "description": "Kling 2.6 Pro Motion Control is an advanced AI video generation model focused on precise motion guidance, enabling creators to produce smooth, controllable, and cinematic animations at scale.",
+    "tag": "video-to-video"
+  },
+  {
+    "id": 270,
+    "name": "Hunyuan Image 3 Instruct i2i",
+    "model_name": "tencent/hunyuan-image-3-instruct-i2i",
+    "description": "Hunyuan Image 3 Instruct i2i is Tencent's instruction-tuned image-to-image model for precise visual transformations. Edit and restyle existing images with natural language control.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 269,
+    "name": "Hunyuan Image 3 Instruct t2i",
+    "model_name": "tencent/hunyuan-image-3-instruct-t2i",
+    "description": "Hunyuan Image 3 Instruct t2i is Tencent's advanced text-to-image model with strong instruction-following capabilities. Generate highly detailed visuals from natural language prompts with ease.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 238,
+    "name": "Kling 2.6 Pro t2v",
+    "model_name": "kuaishou/kling-2.6-pro-t2v",
+    "description": "Kling 2.6 is a breakthrough AI video model blending cinematic visuals, seamless motion, and built-in audio for text- or image-driven video generation with native sound.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 237,
+    "name": "Kling 2.6 Pro i2v",
+    "model_name": "kuaishou/kling-2.6-pro-i2v",
+    "description": "Kling 2.6 Pro I2V is an advanced image-to-video model that transforms static images into high-quality, cinematic videos with smooth motion and realistic details.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 231,
+    "name": "GLM 4.7",
+    "model_name": "z-ai/glm-4.7",
+    "description": "GLM 4.7 is a powerful multimodal large language model designed for fast reasoning, high-quality generation, and reliable enterprise-level AI applications.",
+    "tag": "chat"
+  },
+  {
+    "id": 215,
+    "name": "Wan 2.6 t2v",
+    "model_name": "alibaba/wan-2.6-t2v",
+    "description": "Wan 2.6 t2v is Alibaba's text-to-video model from the Wan AI series. Generate high-quality videos from text prompts with strong Chinese and English language understanding.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 214,
+    "name": "Wan 2.6 i2v",
+    "model_name": "alibaba/wan-2.6-i2v",
+    "description": "WAN 2.6 I2V 1080 animates static images into high-resolution videos while preserving visual structure and style.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 212,
+    "name": "Gemini 3 Flash Preview",
+    "model_name": "google/gemini-3-flash-preview",
+    "description": "Gemini 3 Flash Preview is a fast, lightweight multimodal model optimized for low-latency reasoning and real-time AI interactions.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 197,
+    "name": "Seedream 4.5 t2i",
+    "model_name": "bytedance/seedream-4.5-t2i",
+    "description": "Seedream 4.5 is an advanced AI image-generation and editing model by ByteDance, delivering high-fidelity visuals, precise prompt adherence, and professional-grade consistency for design and creative workflows.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 186,
+    "name": "Gemini 3 Pro Image Preview (Nano Banana Pro)",
+    "model_name": "google/gemini-3-pro-image-preview",
+    "description": "Google‘s Gemini 3 Pro Image Preview – codenamed Nano Banana 2 – is the 2026 ultra-fast multimodal variant optimized for real-time image understanding, generation, and lightning-quick reasoning.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 134,
+    "name": "Sora 2 i2v",
+    "model_name": "openai/sora-2-i2v",
+    "description": "OpenAI's Sora 2 i2v is an Image-to-Video model that animates stills into vertical 720x1280 clips with synchronized audio, ideal for fast, social-first video production.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 209,
+    "name": "MiniMax M2",
+    "model_name": "minimax/minimax-m2",
+    "description": "MiniMax M2 is a compact yet powerful AI model designed for speed, efficiency, and reliable performance. It delivers strong reasoning, fluent generation, and low-latency responses for modern applications.",
+    "tag": "chat"
+  },
+  {
+    "id": 207,
+    "name": "GLM 4.6V Flash",
+    "model_name": "z-ai/glm-4.6v-flash",
+    "description": "GLM 4.6V Flash is a high-speed multimodal model designed for instant reasoning, image understanding, and lightweight workloads. It delivers fast responses while keeping accuracy and context handling reliable.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 206,
+    "name": "GLM 4.6V",
+    "model_name": "z-ai/glm-4.6v",
+    "description": "GLM 4.6V is a multimodal AI model capable of understanding text and images with high precision. It supports complex reasoning, analysis, and creative tasks with strong performance and versatility.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 199,
+    "name": "Seedream 4.5 ref2i",
+    "model_name": "bytedance/seedream-4.5-ref2i",
+    "description": "Seedream 4.5 Image-to-Image enables precise AI-powered image transformations, helping creators iterate, enhance, and restyle visuals with consistency.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 198,
+    "name": "Seedream 4.5 i2i",
+    "model_name": "bytedance/seedream-4.5-i2i",
+    "description": "Seedream 4.5 Image-to-Image is an advanced AI model that transforms existing images into refined, creative outputs while preserving structure and visual intent.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 189,
+    "name": "Claude Opus 4.5 Thinking",
+    "model_name": "anthropic/claude-opus-4.5-thinking",
+    "description": "Claude 4.5 Opus Thinking is a high-precision reasoning model designed for complex decision-making, deep analysis, and reliable long-form generation across enterprise and creator workflows.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 188,
+    "name": "Claude Opus 4.5",
+    "model_name": "anthropic/claude-opus-4.5",
+    "description": "Claude Opus 4.5 is Anthropic's flagship model, offering state-of-the-art intelligence, human-like reasoning, and superior performance across complex, high-stakes analytical tasks.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 171,
+    "name": "Gemini 3 Pro Preview",
+    "model_name": "google/gemini-3-pro-preview",
+    "description": "Gemini 3 Pro Preview is Google's most intelligent model, combining state-of-the-art reasoning, the best multimodal understanding, and a powerful 1M token context window for next-generation agentic AI.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 241,
+    "name": "Seedance 1.5 Pro se2v",
+    "model_name": "bytedance/seedance-1.5-pro-se2v",
+    "description": "Seedance 1.5 Pro se2v is ByteDance's professional start-end-to-video model. Generate smooth video transitions between keyframes with high-quality motion interpolation.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 240,
+    "name": "Seedance 1.5 Pro t2v",
+    "model_name": "bytedance/seedance-1.5-pro-t2v",
+    "description": "Seedance 1.5 Pro t2v is ByteDance's professional text-to-video model. Generate high-quality videos from text prompts with excellent motion dynamics and visual appeal.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 239,
+    "name": "Seedance 1.5 Pro i2v",
+    "model_name": "bytedance/seedance-1.5-pro-i2v",
+    "description": "Seedance 1.5 Pro i2v is ByteDance's professional image-to-video model. Transform static images into dynamic video sequences with impressive motion quality and detail.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 210,
+    "name": "Mistral Large 3",
+    "model_name": "mistral/mistral-large-3",
+    "description": "Mistral Large 3 is a powerful general-purpose model built for complex reasoning, multilingual tasks, code generation, and enterprise-grade knowledge work—all with strong efficiency and precision.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 195,
+    "name": "DeepSeek V3.2",
+    "model_name": "deepseek/deepseek-v3.2",
+    "description": "DeepSeek V3.2 is a high-performance language model built for advanced reasoning, fast generation, and efficient large-scale processing across enterprise and developer workflows.",
+    "tag": "chat"
+  },
+  {
+    "id": 253,
+    "name": "MiMo V2 Flash",
+    "model_name": "xiaomi/mimo-v2-flash",
+    "description": "MiMo V2 Flash is a high-speed multimodal AI model built for rapid reasoning across text and visuals, delivering low latency and efficient inference for real-time applications.",
+    "tag": "chat"
+  },
+  {
+    "id": 183,
+    "name": "Grok 4.1 Fast Reasoning",
+    "model_name": "x-ai/grok-4.1-fast-reasoning",
+    "description": "xAI's cutting-edge AI model launched in 2025, optimized for lightning-fast logical analysis, multi-step problem solving, and advanced reasoning tasks with top-tier accuracy.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 182,
+    "name": "Grok 4.1 Fast Non Reasoning",
+    "model_name": "x-ai/grok-4.1-fast-non-reasoning",
+    "description": "xAI's speed demon variant, delivering instant responses for casual chat, content creation, and simple queries without visible reasoning steps.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 193,
+    "name": "GPT 5.1 CodeX Mini",
+    "model_name": "openai/gpt-5.1-codex-mini",
+    "description": "GPT 5.1 CodeX Mini is a lightweight, fast coding model built for quick responses, low compute cost, and efficient generation suited for everyday programming tasks.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 192,
+    "name": "GPT 5.1 Chat",
+    "model_name": "openai/gpt-5.1-chat",
+    "description": "GPT 5.1 Chat is optimized for natural conversations, delivering fast responses, high contextual awareness, and reliable dialogue performance for interactive experiences.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 191,
+    "name": "GPT 5.1 CodeX",
+    "model_name": "openai/gpt-5.1-codex",
+    "description": "GPT 5.1 CodeX is an advanced coding-optimized model designed for deep understanding of software tasks, offering strong debugging, structured generation, and multi-language coding support.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 190,
+    "name": "GPT 5.1",
+    "model_name": "openai/gpt-5.1",
+    "description": "GPT 5.1 is a general-purpose advanced language model that delivers high accuracy, stronger reasoning, and improved stability for complex tasks across business, research, and creative workflows.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 133,
+    "name": "Sora 2 Pro i2v",
+    "model_name": "openai/sora-2-pro-i2v",
+    "description": "Sora 2 Pro i2v is OpenAI's professional image-to-video model. Transform static images into cinematic video sequences with industry-leading motion and visual quality.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 131,
+    "name": "Veo 3.1 i2v",
+    "model_name": "google/veo-3.1-i2v",
+    "description": "Google DeepMind's Veo 3.1 i2v is a premier Image-to-Video model, animating static images into high-quality, 1080p video with native audio and strong character consistency.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 127,
+    "name": "Sora 2 Pro t2v",
+    "model_name": "openai/sora-2-pro-t2v",
+    "description": "Sora 2 Pro t2v is OpenAI's flagship text-to-video model. Generate stunning cinematic videos from text prompts with unparalleled realism and creative possibilities.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 125,
+    "name": "Veo 3.1 t2v",
+    "model_name": "google/veo-3.1-t2v",
+    "description": "Google DeepMind's Veo 3.1 t2v is a state-of-the-art Text-to-Video model, generating high-fidelity, cinematic 1080p video with synchronized, native audio and dialogue.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 70,
+    "name": "Claude Haiku 4.5",
+    "model_name": "anthropic/claude-haiku-4.5",
+    "description": "Anthropic's Claude Haiku 4.5 LLM offers its fastest speed and lowest cost for high-volume agentic tasks and coding within the standard 200K context.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 67,
+    "name": "GLM 4.6",
+    "model_name": "z-ai/glm-4.6",
+    "description": "Z.ai's GLM 4.6 is a flagship MoE LLM with 200K context, optimized for superior agentic coding, advanced reasoning, and full-stack development.",
+    "tag": "chat"
+  },
+  {
+    "id": 15,
+    "name": "DeepSeek V3.2 Exp",
+    "model_name": "deepseek/deepseek-v3.2-exp",
+    "description": "DeepSeek AI's V3.2 Exp is an Experimental MoE LLM introducing DeepSeek Sparse Attention for drastically lower long-context inference cost while maintaining V3.1's quality.",
+    "tag": "chat"
+  },
+  {
+    "id": 121,
+    "name": "Kling 2.1 Master i2v",
+    "model_name": "kuaishou/kling-2.1-master-i2v",
+    "description": "Kuaishou's Kling 2.1 Master t2v is the top-tier Text-to-Video model for 1080p cinematic generation, with superior 3D motion, expression, and narrative control.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 120,
+    "name": "Kling 2.1 Master t2v",
+    "model_name": "kuaishou/kling-2.1-master-t2v",
+    "description": "Kuaishou's Kling 2.1 Master i2v is the leading Image-to-Video model offering premium 1080p cinematic quality, best for animating stills with precise control and motion.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 106,
+    "name": "Seed 1.6",
+    "model_name": "bytedance/seed-1.6",
+    "description": "ByteDance's Doubao Seed 1.6 is a versatile Multimodal Deep Thinking model supporting text and visual inputs with enhanced reasoning and smart tool-calling.",
+    "tag": "chat"
+  },
+  {
+    "id": 103,
+    "name": "Qwen3 Max 256K",
+    "model_name": "alibaba/qwen3-max-256k",
+    "description": "Alibaba's Qwen3 Max is a premium LLM with an ultra-long 256K context for deep document analysis, complex reasoning, and high-quality generation.",
+    "tag": "chat"
+  },
+  {
+    "id": 93,
+    "name": "Gemini 2.5 Flash",
+    "model_name": "google/gemini-2.5-flash",
+    "description": "Google's Gemini 2.5 Flash is a highly efficient Multimodal LLM, offering the best balance of speed, multimodal reasoning, and cost for high-volume agentic tasks.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 87,
+    "name": "DeepSeek V3.1 Terminus",
+    "model_name": "deepseek/deepseek-v3.1-terminus",
+    "description": "DeepSeek AI's V3.1 Terminus is a flagship Hybrid MoE LLM with 128K context, optimized for superior agentic workflows, reliable tool use, and robust code generation.",
+    "tag": "chat"
+  },
+  {
+    "id": 82,
+    "name": "Seed 1.6 Vision 256K",
+    "model_name": "bytedance/seed-1.6-vision-256k",
+    "description": "ByteDance's Doubao Seed 1.6 Vision is a top-tier Multimodal LLM with a 256K context, designed for deep visual reasoning over massive-scale image and video data.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 81,
+    "name": "Qwen3 Omni Flash",
+    "model_name": "alibaba/qwen3-omni-flash",
+    "description": "Alibaba's Qwen3 Omni Flash is a unified, real-time multimodal MoE model that handles text, image, audio, and video with superior performance.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 80,
+    "name": "Gemini 2.5 Pro",
+    "model_name": "google/gemini-2.5-pro",
+    "description": "Google’s Gemini 2.5 Pro is their most advanced Multimodal LLM with “Thinking” capabilities, excelling at complex reasoning, advanced coding, and 1M context analysis.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 78,
+    "name": "o1",
+    "model_name": "openai/o1",
+    "description": "OpenAI's GPT o1 is a cutting-edge Reasoning LLM that uses extensive internal 'thinking' to achieve state-of-the-art performance in complex logic, science, and agent orchestration.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 77,
+    "name": "GPT 5 Mini",
+    "model_name": "openai/gpt-5-mini",
+    "description": "OpenAI's GPT-5 mini is a fast Reasoning LLM (400K context) providing high-throughput, low-latency performance for lighter agentic tasks, coding, and structured output.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 76,
+    "name": "GPT 5",
+    "model_name": "openai/gpt-5",
+    "description": "OpenAI's GPT-5 is the premier Reasoning LLM optimized for deep, step-by-step thinking, complex multi-step planning, advanced coding, and superior enterprise logic.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 75,
+    "name": "Claude Opus 4.1 Thinking",
+    "model_name": "anthropic/claude-opus-4.1-thinking",
+    "description": "Anthropic's Claude Opus 4.1 is their flagship LLM with Extended Thinking, providing deep, step-by-step reasoning for the most complex coding and agentic problems.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 72,
+    "name": "Claude Sonnet 4.5 (Prompts > 200K tokens)",
+    "model_name": "anthropic/claude-sonnet-4.5-long",
+    "description": "Claude Sonnet 4.5 is a high-performance AI model optimized for complex reasoning, coding, and long-context understanding with fast, reliable responses.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 68,
+    "name": "GPT 4o",
+    "model_name": "openai/gpt-4o",
+    "description": "OpenAI's GPT-4o is their flagship Multimodal LLM that natively processes text, image, and audio inputs for superior real-time interaction, coding, and complex reasoning.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 64,
+    "name": "Qwen3 Coder 480B A35B Instruct",
+    "model_name": "alibaba/qwen3-coder-480b-a35b-instruct",
+    "description": "Alibaba's Qwen3 Coder 480B A35B Instruct is a powerful Mixture-of-Experts (MoE) coding model with a 256K context window, specialized for agentic coding, tool use, and understanding massive codebases.",
+    "tag": "chat"
+  },
+  {
+    "id": 62,
+    "name": "Grok 4 Fast Reasoning",
+    "model_name": "x-ai/grok-4-fast-reasoning",
+    "description": "xAI's Grok 4 Fast Reasoning is a cost-efficient LLM with a 2M context, offering deep, step-by-step reasoning and native tool use for complex problem-solving.",
+    "tag": "chat"
+  },
+  {
+    "id": 33,
+    "name": "Flux Kontext i2i Pro",
+    "model_name": "black-forest-labs/flux-kontext-i2i-pro",
+    "description": "Black Forest Labs' Flux Kontext Pro is a powerful In-Context Image Editing model for precise, consistent edits, object modifications, and local region control via text.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 30,
+    "name": "Flux Kontext t2i Pro",
+    "model_name": "black-forest-labs/flux-kontext-t2i-pro",
+    "description": "Black Forest Labs' Flux Kontext Pro is a unified Generative Flow model for text-to-image generation that excels in maintaining character and style consistency.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 28,
+    "name": "Kimi K2 Instruct",
+    "model_name": "moonshotai/kimi-k2-instruct",
+    "description": "Moonshot AI's Kimi K2 Instruct is a powerful Mixture-of-Experts (MoE) LLM (1T total params), optimized for superior agentic intelligence, complex coding, and native tool use.",
+    "tag": "chat"
+  },
+  {
+    "id": 16,
+    "name": "Gemini 2.5 Flash Image i2i (Nano Banana)",
+    "model_name": "google/gemini-2.5-flash-image-i2i",
+    "description": "Google's Gemini 2.5 Flash Image (a.k.a. nanobanana) is a state-of-the-art Image Generation model that supports advanced editing, fusion, and character consistency.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 3,
+    "name": "DeepSeek R1",
+    "model_name": "deepseek/deepseek-r1",
+    "description": "DeepSeek AI's R1 is a powerful Reasoning Model (MoE, 671B params) utilizing RL to excel in complex, step-by-step problem-solving, math, and coding tasks.",
+    "tag": "chat"
+  },
+  {
+    "id": 282,
+    "name": "Kling 2.6 Motion Control",
+    "model_name": "kuaishou/kling-2.6-motion-control",
+    "description": "Kling 2.6 Motion Control is an advanced AI video generation model focused on precise motion guidance, enabling creators to produce smooth, controllable, and cinematic animations at scale.",
+    "tag": "video-to-video"
+  },
+  {
+    "id": 281,
+    "name": "Vidu Q2 ref2v",
+    "model_name": "vidu/vidu-q2-ref2v",
+    "description": "Vidu Q2 ref2v is Vidu AI's standard reference-to-video model. Generate consistent videos using reference images to maintain subject identity at balanced cost.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 280,
+    "name": "Vidu Q2 t2v",
+    "model_name": "vidu/vidu-q2-t2v",
+    "description": "Vidu Q2 t2v is Vidu AI's standard text-to-video model. Generate quality videos directly from text prompts with reliable performance and balanced cost efficiency.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 279,
+    "name": "Vidu Q2-pro i2v",
+    "model_name": "vidu/vidu-q2-pro-i2v",
+    "description": "Vidu Q2-pro i2v is Vidu AI's professional image-to-video model. Transform static images into high-quality dynamic videos with exceptional motion and visual fidelity.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 278,
+    "name": "Vidu Q2-pro se2v",
+    "model_name": "vidu/vidu-q2-pro-se2v",
+    "description": "Vidu Q2-pro se2v is Vidu AI's professional start-end-to-video model. Generate high-quality video transitions between two keyframes with superior motion and detail.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 277,
+    "name": "Vidu Q2-turbo i2v",
+    "model_name": "vidu/vidu-q2-turbo-i2v",
+    "description": "Vidu Q2-turbo i2v is Vidu AI's fast image-to-video model optimized for speed. Quickly animate static images into dynamic video sequences with efficient processing.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 276,
+    "name": "Vidu Q2-turbo se2v",
+    "model_name": "vidu/vidu-q2-turbo-se2v",
+    "description": "Vidu Q2-turbo se2v is Vidu AI's speed-optimized start-end-to-video model. Rapidly generate smooth video transitions between keyframes with fast turnaround time.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 272,
+    "name": "Vidu Q2-pro-fast i2v",
+    "model_name": "vidu/vidu-q2-pro-fast-i2v",
+    "description": "Vidu Q2-pro-fast i2v is Vidu AI's fast image-to-video model. Generate consistent videos using reference images to maintain subject identity and style throughout.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 271,
+    "name": "Vidu Q2-pro-fast se2v",
+    "model_name": "vidu/vidu-q2-pro-fast-se2v",
+    "description": "Vidu Q2-pro-fast se2v is a high-speed start-end-to-video model from Vidu AI. Generate smooth video transitions between two keyframe images with fast processing time.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 268,
+    "name": "Ideogram V2 i2i",
+    "model_name": "ideogram/ideogram-v2-i2i",
+    "description": "Ideogram V2 is a model by Ideogram AI, released August 21 2024. It presents industry‑leading capabilities in text‑to‑image generation, including exceptional accuracy for text within images, a variety of styles (Realistic, Design, 3D, Anime), full aspect‑ratio flexibility, and developer‑ready API access. ",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 267,
+    "name": "Ideogram V3 Turbo i2i",
+    "model_name": "ideogram/ideogram-v3-turbo-i2i",
+    "description": "Ideogram V3 Turbo is the fastest and cheapest Ideogram v3. Ideogram V3 creates images with stunning realism, creative designs, and consistent styles",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 266,
+    "name": "Ideogram V3 Quality i2i",
+    "model_name": "ideogram/ideogram-v3-quality-i2i",
+    "description": "Ideogram V3 Quality is the premium‑tier version of Ideogram 3.0, designed for maximum fidelity in text‑to‑image and image-to-image generation. It delivers photorealistic imagery, exceptional typography rendering, fine control over style with reference images, and optimal output quality for design and brand‑critical use‑cases.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 265,
+    "name": "Ideogram V3 Balanced i2i",
+    "model_name": "ideogram/ideogram-v3-balanced-i2i",
+    "description": "Ideogram V3 Balanced is the mid‑tier version of the Ideogram 3.0, designed to offer a strong balance of generation speed, image quality, and cost‑efficiency.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 264,
+    "name": "Ideogram V2 t2i",
+    "model_name": "ideogram/ideogram-v2-t2i",
+    "description": "Ideogram V2 is a text‑to‑image model by Ideogram AI, released August 21 2024. It presents industry‑leading capabilities in text‑to‑image generation, including exceptional accuracy for text within images, a variety of styles (Realistic, Design, 3D, Anime), full aspect‑ratio flexibility, and developer‑ready API access. ",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 262,
+    "name": "Ideogram V3 Turbo t2i",
+    "model_name": "ideogram/ideogram-v3-turbo-t2i",
+    "description": "Ideogram V3 Turbo is the fastest and cheapest Ideogram v3. Ideogram V3 creates images with stunning realism, creative designs, and consistent styles",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 261,
+    "name": "Ideogram V3 Quality t2i",
+    "model_name": "ideogram/ideogram-v3-quality-t2i",
+    "description": "Ideogram V3 Quality is the premium‑tier version of Ideogram 3.0, designed for maximum fidelity in text‑to‑image and image-to-image generation. It delivers photorealistic imagery, exceptional typography rendering, fine control over style with reference images, and optimal output quality for design and brand‑critical use‑cases.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 258,
+    "name": "Ideogram V3 Balanced t2i",
+    "model_name": "ideogram/ideogram-v3-balanced-t2i",
+    "description": "Ideogram V3 Balanced is the mid‑tier version of the Ideogram 3.0, designed to offer a strong balance of generation speed, image quality, and cost‑efficiency.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 256,
+    "name": "Text Embedding 3 Small",
+    "model_name": "openai/text-embedding-3-small",
+    "description": "OpenAI Text Embedding 3 Small is a lightweight, cost-efficient embedding model designed for fast semantic understanding, similarity search, and text clustering at scale.",
+    "tag": "embedding"
+  },
+  {
+    "id": 255,
+    "name": "Text Embedding 3 Large",
+    "model_name": "openai/text-embedding-3-large",
+    "description": "OpenAI Text Embedding 3 Large is a high-quality embedding model offering deeper semantic representation for complex text understanding and enterprise-grade retrieval tasks.",
+    "tag": "embedding"
+  },
+  {
+    "id": 252,
+    "name": "GPT Image 1.5 ref2i High",
+    "model_name": "openai/gpt-image-1.5-ref2i-high",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 251,
+    "name": "GPT Image 1.5 ref2i Medium",
+    "model_name": "openai/gpt-image-1.5-ref2i-medium",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 250,
+    "name": "GPT Image 1.5 ref2i Low",
+    "model_name": "openai/gpt-image-1.5-ref2i-low",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 248,
+    "name": "GPT Image 1.5 i2i High",
+    "model_name": "openai/gpt-image-1.5-i2i-high",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 247,
+    "name": "GPT Image 1.5 i2i Medium",
+    "model_name": "openai/gpt-image-1.5-i2i-medium",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 246,
+    "name": "GPT Image 1.5 i2i Low",
+    "model_name": "openai/gpt-image-1.5-i2i-low",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 245,
+    "name": "GPT Image 1.5 t2i High",
+    "model_name": "openai/gpt-image-1.5-t2i-high",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 243,
+    "name": "GPT Image 1.5 t2i Medium",
+    "model_name": "openai/gpt-image-1.5-t2i-medium",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 242,
+    "name": "GPT Image 1.5 t2i Low",
+    "model_name": "openai/gpt-image-1.5-t2i-low",
+    "description": "GPT Image 1.5 is OpenAI’s newest flagship image model powering the latest ChatGPT Images. It delivers significantly faster image generation with stronger instruction following, more precise edits that preserve original details, more believable transformations, and improved rendering of dense or small text. It is suited for practical creative workflows, detailed design tasks, and production use cases.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 236,
+    "name": "Gemini Embedding 001",
+    "model_name": "google/gemini-embedding-001",
+    "description": "Gemini Embedding 001 is a powerful text embedding model designed to transform content into dense vectors for semantic search, retrieval, and similarity tasks.",
+    "tag": "embedding"
+  },
+  {
+    "id": 230,
+    "name": "Z-Image Turbo t2i",
+    "model_name": "alibaba/z-image-turbo-t2i",
+    "description": "Z-Image is a 6-billion-parameter image generation model built on a Single-Stream Diffusion Transformer, delivering photorealistic images and bilingual text rendering with low hardware requirements.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 228,
+    "name": "Claude Sonnet 3.5",
+    "model_name": "anthropic/claude-sonnet-3.5",
+    "description": "Claude Sonnet 3.5 is a reliable and efficient AI model designed for general reasoning, writing, and coding tasks at a lower cost.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 227,
+    "name": "GPT 5 Pro",
+    "model_name": "openai/gpt-5-pro",
+    "description": "GPT-5 Pro is a high-performance large language model designed for complex reasoning, long-context understanding, and enterprise-grade AI applications.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 225,
+    "name": "GPT 5 Nano",
+    "model_name": "openai/gpt-5-nano",
+    "description": "GPT-5 Nano is a compact language model optimized for ultra-fast responses and low cost, ideal for high-volume and latency-sensitive AI workloads.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 224,
+    "name": "GPT 5 Chat",
+    "model_name": "openai/gpt-5-chat",
+    "description": "GPT-5 Chat is a conversation-optimized language model built for natural dialogue, contextual understanding, and smooth multi-turn interactions.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 220,
+    "name": "o3 Pro",
+    "model_name": "openai/o3-pro",
+    "description": "GPT-O3 Pro is a premium reasoning-focused AI model built for deep analysis, structured thinking, and complex decision-making tasks.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 219,
+    "name": "o4 Mini",
+    "model_name": "openai/o4-mini",
+    "description": "GPT-O4 Mini is a lightweight multimodal AI model designed for fast reasoning, efficient text understanding, and cost-effective real-time applications.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 217,
+    "name": "o3 Mini",
+    "model_name": "openai/o3-mini",
+    "description": "GPT-O3 Mini is a compact reasoning-focused model offering strong logical understanding while maintaining excellent efficiency and low operational cost.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 216,
+    "name": "o3",
+    "model_name": "openai/o3",
+    "description": "GPT-O3 is a powerful reasoning-centric AI model built for deep analysis, complex decision making, and high-accuracy enterprise workloads.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 204,
+    "name": "DeepSeek V3.1",
+    "model_name": "deepseek/deepseek-v3.1",
+    "description": "DeepSeek V3.1 is an advanced large language model optimized for fast reasoning, coding accuracy, and complex problem solving across technical and analytical tasks.",
+    "tag": "chat"
+  },
+  {
+    "id": 203,
+    "name": "GPT 4.1 Nano",
+    "model_name": "openai/gpt-4.1-nano",
+    "description": "GPT-4.1 Nano is a compact and efficient language model optimized for low latency, high throughput, and cost-effective AI deployments at scale.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 202,
+    "name": "GPT 4.1 Mini",
+    "model_name": "openai/gpt-4.1-mini",
+    "description": "GPT-4.1 Mini is a lightweight yet capable language model that balances reasoning quality, fast response times, and affordability for everyday AI workloads.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 200,
+    "name": "GPT 4.1",
+    "model_name": "openai/gpt-4.1",
+    "description": "GPT 4.1 is the latest flagship LLM from OpenAI, offering massive context capacity, improved reasoning and coding, and robust instruction-following for modern AI applications.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 180,
+    "name": "Seedream 4.0 ref2i",
+    "model_name": "bytedance/seedream-4.0-ref2i",
+    "description": "Seedream 4.0 Image-to-Image is a powerful AI model that transforms existing images into enhanced or re-styled visuals while preserving structure, details, and creative intent.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 173,
+    "name": "Mistral Medium 3",
+    "model_name": "mistral/mistral-medium-3",
+    "description": "Mistral Medium 3 is a balanced, high-performance model offering strong reasoning, reliable generation, and efficient compute usage for versatile business and creative workloads.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 172,
+    "name": "Ministral 3 3B",
+    "model_name": "mistral/ministral-3-3b",
+    "description": "Mistral Ministral 3 3B is a compact, high-efficiency language model designed for fast inference, low-cost deployments, and solid reasoning performance in smaller compute environments.",
+    "tag": "chat"
+  },
+  {
+    "id": 170,
+    "name": "GPT 5 CodeX",
+    "model_name": "openai/gpt-5-codex",
+    "description": "GPT-5 Codex is a specialized version of the GPT-5 AI model that is fine-tuned for software engineering and coding tasks. ",
+    "tag": "chat"
+  },
+  {
+    "id": 169,
+    "name": "claude-haiku-4-5-20251001",
+    "model_name": "claude-haiku-4-5-20251001",
+    "description": "Anthropic's Claude Haiku 4.5 is the efficient LLM that scales its context window past 200K tokens, ideal for specialized, massive long-context document analysis.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 168,
+    "name": "claude-sonnet-4-5-20250929",
+    "model_name": "claude-sonnet-4-5-20250929",
+    "description": "Claude Sonnet 4.5 delivers enterprise-grade AI performance with enhanced reasoning, safety, and stability for production-ready applications.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 167,
+    "name": "Seedance 1.0 Pro Fast i2v",
+    "model_name": "bytedance/seedance-1.0-pro-fast-i2v",
+    "description": "ByteDance Seedance 1.0 Pro Fast I2V model. High-speed, professional Image-to-Video generation, optimized for fast production and review.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 164,
+    "name": "Seedance 1.0 Pro i2v",
+    "model_name": "bytedance/seedance-1.0-pro-i2v",
+    "description": "Seedance 1.0 Pro i2v is ByteDance's foundational professional image-to-video model. Animate static images into video sequences with proven stability and reliable results.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 162,
+    "name": "Seedance 1.0 Lite i2v",
+    "model_name": "bytedance/seedance-1.0-lite-i2v",
+    "description": "ByteDance Seedance 1.0 Lite I2V model. Efficient 720p Image-to-Video AI for cost-effective, high-volume video synthesis and quick visual iterations.Description of your new file.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 160,
+    "name": "Seedance 1.0 Pro Fast t2v",
+    "model_name": "bytedance/seedance-1.0-pro-fast-t2v",
+    "description": "ByteDance Seedance 1.0 Pro Fast T2V model. Rapid Text-to-Video generation for efficient visual concept testing and high-volume asset creation.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 156,
+    "name": "Seedream 4.0 i2i",
+    "model_name": "bytedance/seedream-4.0-i2i",
+    "description": "ByteDance Seedream 4.0 I2I model. Next-gen Image-to-Image AI with enhanced control and fidelity for professional-grade composition and editing.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 130,
+    "name": "Veo 3 Fast i2v",
+    "model_name": "google/veo-3-fast-i2v",
+    "description": "Google DeepMind's Veo 3 Fast i2v is a streamlined Image-to-Video model that quickly animates images for fast, high-volume production of social media and ad creatives.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 124,
+    "name": "Veo 3 Fast t2v",
+    "model_name": "google/veo-3-fast-t2v",
+    "description": "Google DeepMind's Veo 3 Fast t2v is a specialized Text-to-Video model optimized for high-speed, cost-effective, and rapid generation of video clips with audio.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 123,
+    "name": "Kling 2.1 Standard i2v",
+    "model_name": "kuaishou/kling-2.1-standard-i2v",
+    "description": "Kuaishou's Kling 2.1 Standard i2v is a base-tier Image-to-Video model offering high-quality 720p animation and strong character consistency at a competitive speed.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 119,
+    "name": "Kling 1.6 Standard i2v",
+    "model_name": "kuaishou/kling-1.6-standard-i2v",
+    "description": "Kuaishou's Kling 1.6 Standard i2v is an accessible Image-to-Video model for animating stills into 720p clips, focusing on first-frame guidance and speed.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 118,
+    "name": "Kling 1.6 Standard t2v",
+    "model_name": "kuaishou/kling-1.6-standard-t2v",
+    "description": "Kuaishou's Kling 1.6 Standard t2v is a core Text-to-Video model for fast, cost-effective 720p clip generation, ideal for quick content creation and prototyping.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 117,
+    "name": "Kling 1.6 Pro i2v",
+    "model_name": "kuaishou/kling-1.6-pro-i2v",
+    "description": "Kuaishou's Kling 1.6 Pro i2v is a premium Image-to-Video model for 1080p generation, offering advanced first and last-frame control for precise transitions.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 116,
+    "name": "Kling 1.6 Pro t2v",
+    "model_name": "kuaishou/kling-1.6-pro-t2v",
+    "description": "Kuaishou's Kling 1.6 Pro t2v is a high-fidelity Text-to-Video model that generates 1080p, 10-second clips with enhanced physics and cinematic camera dynamics.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 115,
+    "name": "Flux 1.1 Pro i2i",
+    "model_name": "black-forest-labs/flux-1.1-pro-i2i",
+    "description": "Black Forest Labs' Flux 1.1 Pro is an advanced, high-speed Image-to-Image model ideal for fast, high-quality style transfer and image-guided generation.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 114,
+    "name": "Flux 1.1 Pro t2i",
+    "model_name": "black-forest-labs/flux-1.1-pro-t2i",
+    "description": "Black Forest Labs' Flux 1.1 Pro is a fast, state-of-the-art Text-to-Image model for high-quality visual generation with superior speed and prompt adherence.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 112,
+    "name": "Seed 1.6 Flash",
+    "model_name": "bytedance/seed-1.6-flash",
+    "description": "ByteDance's Doubao Seed 1.6 Flash is an ultra-fast Multimodal Thinking model with a 256K context, optimized for real-time visual and text understanding.",
+    "tag": "chat"
+  },
+  {
+    "id": 109,
+    "name": "GPT oss 120b",
+    "model_name": "openai/gpt-oss-120b",
+    "description": "GPT OSS 120B is a large-scale open-source language model with 120B parameters, delivering strong reasoning, generation quality, and full deployment flexibility.",
+    "tag": "chat"
+  },
+  {
+    "id": 108,
+    "name": "GPT oss 20b",
+    "model_name": "openai/gpt-oss-20b",
+    "description": "OpenAI's GPT oss 20B is an Open-Weight MoE LLM designed for on-device use, offering strong reasoning, function calling, and agentic capabilities under the Apache 2.0 license.",
+    "tag": "chat"
+  },
+  {
+    "id": 107,
+    "name": "Seed 1.6 Thinking",
+    "model_name": "bytedance/seed-1.6-thinking",
+    "description": "ByteDance's Doubao Seed 1.6 Thinking is a powerful Multimodal LLM with deep, step-by-step reasoning for superior performance in complex logic, math, and coding.",
+    "tag": "chat"
+  },
+  {
+    "id": 104,
+    "name": "Qwen3 Max 32K",
+    "model_name": "alibaba/qwen3-max-32k",
+    "description": "Alibaba's Qwen3 Max is a powerful general-purpose LLM for core tasks like complex instruction-following, math, and reliable, high-quality generation.",
+    "tag": "chat"
+  },
+  {
+    "id": 102,
+    "name": "Qwen3 Max 128K",
+    "model_name": "alibaba/qwen3-max-128k",
+    "description": "Alibaba's Qwen3 Max is a flagship LLM with a 128K context, excelling at complex reasoning, advanced coding, and superior multilingual content generation.",
+    "tag": "chat"
+  },
+  {
+    "id": 100,
+    "name": "Qwen Plus",
+    "model_name": "alibaba/qwen-plus",
+    "description": "Alibaba's Qwen Plus is an advanced general-purpose LLM that balances powerful reasoning, speed, and cost for diverse, high-value enterprise applications.",
+    "tag": "chat"
+  },
+  {
+    "id": 98,
+    "name": "Qwen MT Plus",
+    "model_name": "alibaba/qwen-mt-plus",
+    "description": "Alibaba's Qwen MT Plus is a flagship Machine Translation model that provides highly accurate, complex, and multilingual translations across 92+ languages.",
+    "tag": "chat"
+  },
+  {
+    "id": 97,
+    "name": "Qwen Long",
+    "model_name": "alibaba/qwen-long",
+    "description": "Alibaba's Qwen Long is a powerful LLM specialized for robust, high-fidelity processing and generation of ultra-long context documents.",
+    "tag": "chat"
+  },
+  {
+    "id": 95,
+    "name": "Seed 1.6 Vision 128K",
+    "model_name": "bytedance/seed-1.6-vision-128k",
+    "description": "ByteDance's Doubao Seed 1.6 Vision is a powerful Multimodal LLM with a 128K context for enhanced visual analysis, video understanding, and complex VLM tasks.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 92,
+    "name": "o1 Mini",
+    "model_name": "openai/o1-mini",
+    "description": "GPT o1 Mini is a lightweight reasoning-optimized language model designed for fast responses, low latency, and cost-efficient AI applications.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 91,
+    "name": "GPT 4o mini",
+    "model_name": "openai/gpt-4o-mini",
+    "description": "OpenAI's GPT-4o mini is their highly efficient Multimodal LLM with 128K context, optimized for high-speed, low-cost retrieval, general tasks, and image comprehension.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 90,
+    "name": "GLM 4.5V",
+    "model_name": "z-ai/glm-4.5v",
+    "description": "Z.ai's GLM 4.5V is an efficient Multimodal VLM (106B total params) that excels in visual reasoning, video analysis, and autonomous GUI/agent tasks.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 89,
+    "name": "Grok 4",
+    "model_name": "x-ai/grok-4",
+    "description": "xAI's Grok 4 is their most advanced LLM, utilizing axiom-based first-principles reasoning for superior performance in complex logic, advanced coding, and multimodal tasks.",
+    "tag": "chat"
+  },
+  {
+    "id": 86,
+    "name": "Flux 1.1 Pro Ultra i2i",
+    "model_name": "black-forest-labs/flux-1.1-pro-ultra-i2i",
+    "description": "Black Forest Labs' Flux 1.1 Pro Ultra is a premium Image-to-Image model for ultra-high-resolution style transfer and image-guided generation up to 4MP.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 84,
+    "name": "Qwen MT Turbo",
+    "model_name": "alibaba/qwen-mt-turbo",
+    "description": "Alibaba's Qwen MT Turbo is a cost-effective, lightweight Machine Translation model optimized for fast, low-latency, high-volume multilingual translations.",
+    "tag": "chat"
+  },
+  {
+    "id": 83,
+    "name": "Seed 1.6 Vision 32K",
+    "model_name": "bytedance/seed-1.6-vision-32k",
+    "description": "ByteDance's Doubao Seed 1.6 Vision is a robust Multimodal LLM with a 32K context for strong general-purpose visual comprehension and agentic applications.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 79,
+    "name": "Gemini 2.5 Flash Lite",
+    "model_name": "google/gemini-2.5-flash-lite",
+    "description": "Google's Gemini 2.5 Flash Lite is their fastest, most cost-effective Multimodal LLM, optimized for maximum efficiency in high-volume, low-latency applications.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 74,
+    "name": "Claude Opus 4.1",
+    "model_name": "anthropic/claude-opus-4.1",
+    "description": "Anthropic's Claude Opus 4.1 is the leading LLM for frontier intelligence, excelling at complex reasoning, advanced software engineering, and sophisticated long-horizon agents.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 73,
+    "name": "Claude Sonnet 4.5 (Prompts ≤ 200K tokens)",
+    "model_name": "anthropic/claude-sonnet-4.5",
+    "description": "Claude Sonnet 4.5 is a developer-focused AI model offering precise reasoning, clean code output, and excellent instruction following.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 69,
+    "name": "Gemini 2.0 Flash",
+    "model_name": "google/gemini-2.0-flash",
+    "description": "Google's Gemini 2.0 Flash is a fast, powerful Multimodal LLM with a 1M context window, optimized for high-speed retrieval, coding, and built-in tool use.",
+    "tag": "multi-modal"
+  },
+  {
+    "id": 60,
+    "name": "Grok 4 Fast Non Reasoning",
+    "model_name": "x-ai/grok-4-fast-non-reasoning",
+    "description": "xAI's Grok 4 Fast Non-Reasoning is a cost-efficient LLM with a 2M context, optimized for high-speed, low-latency, straightforward queries, and rapid search synthesis.",
+    "tag": "chat"
+  },
+  {
+    "id": 54,
+    "name": "Seedance 1.0 Pro t2v",
+    "model_name": "bytedance/seedance-1.0-pro-t2v",
+    "description": "Seedance 1.0 Pro t2v is ByteDance's foundational professional text-to-video model. Generate quality videos from text prompts with proven reliability and solid performance.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 52,
+    "name": "Seedance 1.0 Lite t2v",
+    "model_name": "bytedance/seedance-1.0-lite-t2v",
+    "description": "ByteDance Seedance 1.0 Lite T2V model. Fast, cost-effective 720p Text-to-Video AI for rapid synthesis and mass creative video generation.",
+    "tag": "text-to-video"
+  },
+  {
+    "id": 50,
+    "name": "Kling 2.1 Pro i2v",
+    "model_name": "kuaishou/kling-2.1-pro-i2v",
+    "description": "Kuaishou's Kling 2.1 Pro i2v is a professional Image-to-Video model that delivers sharp 1080p videos with refined lighting, character consistency, and dynamic camera control.",
+    "tag": "image-to-video"
+  },
+  {
+    "id": 46,
+    "name": "Flux 1.1 Pro Ultra t2i",
+    "model_name": "black-forest-labs/flux-1.1-pro-ultra-t2i",
+    "description": "Black Forest Labs' Flux 1.1 Pro Ultra is a flagship Text-to-Image model that generates ultra-fast, high-fidelity images up to 4MP resolution with new Ultra/Raw modes.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 44,
+    "name": "Seedream 3.0 t2i",
+    "model_name": "bytedance/seedream-3.0-t2i",
+    "description": "ByteDance Seedream 3.0 T2I model. Robust Text-to-Image AI generating high-quality, creative images from simple or complex textual descriptions.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 35,
+    "name": "Gemini 2.5 Flash Image t2i (Nano Banana)",
+    "model_name": "google/gemini-2.5-flash-image-t2i",
+    "description": "Gemini 2.5 Flash variant for text-to-image, offering fast and vivid generations.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 34,
+    "name": "Flux Kontext t2i Max",
+    "model_name": "black-forest-labs/flux-kontext-t2i-max",
+    "description": "Black Forest Labs' Flux Kontext Max is the highest-tier Generative Flow model pushing prompt precision, superior typography, and character consistency in T2I.",
+    "tag": "text-to-image"
+  },
+  {
+    "id": 32,
+    "name": "Flux Kontext i2i Max",
+    "model_name": "black-forest-labs/flux-kontext-i2i-max",
+    "description": "Black Forest Labs' Flux Kontext Max is the premium In-Context Image Editing model offering maximum performance in precise editing, style consistency, and typography control.",
+    "tag": "image-to-image"
+  },
+  {
+    "id": 14,
+    "name": "Seedream 4.0 t2i",
+    "model_name": "bytedance/seedream-4.0-t2i",
+    "description": "ByteDance Seedream 4.0 T2I model. State-of-the-art Text-to-Image AI, delivering superior prompt adherence and refined aesthetics for stunning visual art.",
+    "tag": "text-to-image"
+  }
+]
