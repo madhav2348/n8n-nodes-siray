@@ -64,3 +64,8 @@ export const sirayVideoToVideo: SirayModelType[] = sirayAvailableModel.filter(
     return models.tag === "video-to-video" ;
   },
 ).sort((a, b) => a.name.localeCompare(b.name));
+export const sirayEmbeddings: SirayModelType[] = sirayAvailableModel.filter(
+  (models) => {
+    return models.tag === "embedding" ;
+  },
+).sort((a, b) => a.name.localeCompare(b.name));
