@@ -46,7 +46,7 @@ export const sirayTextToImage: SirayModelType[] = sirayAvailableModel.filter(
 
 export const sirayImageToImage: SirayModelType[] = sirayAvailableModel.filter(
   (models) => {
-    return models.tag === "image-to-image"  ;
+    return models.tag === "image-to-video"  ;
   },
 ).sort((a, b) => a.name.localeCompare(b.name));
 export const sirayTextToVideo: SirayModelType[] = sirayAvailableModel.filter(

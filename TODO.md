@@ -25,10 +25,10 @@ Track the implementation progress of Siray AI custom n8n features.
 - [ ] Set up CI/CD pipeline
 
 ### Custom Nodes
-- [ ] Siray AI Chat Node
-- [ ] Siray AI Image Node
-- [ ] Siray AI Video Node
-- [ ] Siray AI Embedded Node
+- [x] Siray AI Chat Node
+- [x] Siray AI Image Node
+- [x] Siray AI Video Node
+- [x] Siray AI Embedded Node
 
 ### Workflow Templates
 - [ ] Example workflow templates
@@ -43,9 +43,9 @@ Track the implementation progress of Siray AI custom n8n features.
 - [ ] Architecture documentation
 
 ### Additional
-- [ ] Docker configuration
+- [x] Docker configuration
 
 ---
 
 
-**Last Updated:** February 22, 2026
+**Last Updated:** March 4, 2026
