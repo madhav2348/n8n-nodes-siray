@@ -2,7 +2,6 @@
   "name": "n8n-nodes-siray",
   "version": "0.1.0",
   "description": "Custom n8n nodes and workflows for Siray AI automation",
-  "main": "index.js",
   "scripts": {
     "build": "n8n-node build",
     "build:watch": "tsc --watch",
@@ -33,7 +32,8 @@
     "nodes": [
       "dist/nodes/SirayChat/SirayChat.node.js",
       "dist/nodes/SirayImage/SirayImage.node.js",
-      "dist/nodes/SirayVideo/SirayVideo.node.js"
+      "dist/nodes/SirayVideo/SirayVideo.node.js",
+      "dist/nodes/SirayVideo/SirayEmbedding.node.js"
     ]
   },
   "devDependencies": {
