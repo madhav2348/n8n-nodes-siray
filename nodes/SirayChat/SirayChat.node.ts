@@ -6,11 +6,12 @@ import type {
   INodeTypeDescription,
 } from "n8n-workflow";
 import { sirayChatOperation } from "./chatProperties";
+import { methods } from "../SirayModel";
 
 export class Siray implements INodeType {
   description: INodeTypeDescription = {
-    displayName: "Siray",
-    name: "siray",
+    displayName: "Siray-Chat",
+    name: "sirayChat",
     icon: {
       light: "file:../../icons/siray.svg",
       dark: "file:../../icons/siray.svg",
@@ -37,6 +38,7 @@ export class Siray implements INodeType {
     ],
     properties: [...sirayChatOperation],
   };
+  methods = methods;
   async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
     const items = this.getInputData();
 

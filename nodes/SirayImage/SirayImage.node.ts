@@ -1,4 +1,5 @@
 import { NodeConnectionTypes, NodeOperationError } from "n8n-workflow";
+import { methods } from "../SirayModel";
 import type {
   IExecuteFunctions,
   INodeExecutionData,
@@ -9,8 +10,8 @@ import { sirayImageOperation } from "./imageProperties";
 
 export class Siray implements INodeType {
   description: INodeTypeDescription = {
-    displayName: "Siray",
-    name: "siray",
+    displayName: "Siray-Image",
+    name: "sirayImage",
     icon: {
       light: "file:../../icons/siray.svg",
       dark: "file:../../icons/siray.svg",
@@ -37,6 +38,7 @@ export class Siray implements INodeType {
     ],
     properties: [...sirayImageOperation],
   };
+  methods = methods;
   async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
     const items = this.getInputData();
 
