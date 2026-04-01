@@ -33,7 +33,9 @@
       "dist/nodes/SirayChat/SirayChat.node.js",
       "dist/nodes/SirayImage/SirayImage.node.js",
       "dist/nodes/SirayVideo/SirayVideo.node.js",
-      "dist/nodes/SirayVideo/SirayEmbedding.node.js"
+      "dist/nodes/SirayEmbedding/SirayEmbedding.node.js",
+      "dist/nodes/SirayImageTrigger/SirayImageTrigger.node.js",
+      "dist/nodes/SirayVideoTrigger/SirayVideoTrigger.node.js"
     ]
   },
   "devDependencies": {
